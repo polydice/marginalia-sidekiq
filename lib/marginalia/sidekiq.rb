@@ -1,4 +1,6 @@
 require "marginalia/sidekiq/version"
+require "sidekiq"
+require "marginalia"
 
 class SidekiqMarginaliaIntegeration
   def call(worker, _msg, _queue)
